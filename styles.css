@@ -1,0 +1,37 @@
+body{
+    background-color: aliceblue;
+}
+.text-link{
+    display:inline;
+    word-spacing: 10px;
+}
+.icon-link{
+    display: inline;
+    word-spacing: 10px;
+}
+li{
+    display: inline;
+}
+.horizontal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+#optional-content{
+    background-color: white;
+    box-shadow: 4px 2px 10px 2px lightgrey;
+    color: blue;
+    text-shadow: 10px;
+}
+.toggle-btn{
+    top: 50%;
+    position: fixed;
+    left: 50%;
+    background-color: lightskyblue;
+    font-size: x-large;
+    border: transparent;
+    border-radius: 5px;
+    padding: 30px 40px;
+}
